@@ -23,7 +23,8 @@ body {
   width: 100%;
   table-layout: fixed;
 }
-.ui.table tr td + td + td {
+.ui.table .actions-cell,
+.ui.table .complete-cell {
   text-align: center;
   width: 20%;
 }
